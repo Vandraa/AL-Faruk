@@ -1,0 +1,2 @@
+# AL-Faruk
+PROJECT PKK KELOMPOK 8
