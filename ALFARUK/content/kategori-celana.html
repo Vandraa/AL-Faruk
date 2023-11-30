@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFARUK</title>
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+    <style>
+
+    body{
+        margin: 0;
+        background-color: #ede4cd;
+
+    }
+
+    .nav {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1b1c21;
+    color: black;
+    font-weight: 400;
+}
+
+.nav__item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    gap: 16px;
+
+}
+
+.nav__item img{
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+}
+
+.nav__item a{
+    padding: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+.nav__item a:hover {
+    color:#ede4cd;
+}
+
+.container {
+    position: relative;
+}
+
+.text-align {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 50px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            color: #FFF;
+        }
+        .box1,
+        .box2{
+            width: 1100px;
+            height: auto;
+            background-color: #1b1c21;
+            display: flex;
+            gap: 30px;
+            margin-bottom: 50px;
+       
+        }
+
+        .y {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            margin-right: 40px;
+            margin-top: 30px;
+            gap: 70px;
+        }
+
+        .box button{
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 10px;
+            height: 30px;
+            background-color: #fff;
+        }
+        .btn a,
+        li a {
+            text-decoration: none;
+        }
+
+        .btn button {
+            border: none;
+        }
+
+        .imgs img {
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .selected {
+            border: 2px solid blue;
+        }
+
+        footer {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            text-align: center;
+            color: #FFF;
+            background-color: #1b1c21;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <section class="nav__item">
+            <img src="../assets/logo.jpg" alt="">
+        </section>
+        <section class="nav__item">
+            <a href="landing.html">Home</a>
+            <a href="landing.html">Pesan</a>
+            <a href="contact.html">Contact</a>
+            <a href="">Login</a>
+            
+        </section>
+    </nav>    
+<main>
+    <section>
+        <section id="pesan">
+            <div class="text-align">
+                <div a style="color: black;"><h2>PILIH TIPE<h2></a></div>
+        
+                    <div class="box">
+                        <div style="padding: 30px;" class="box1">
+                            <div class="motif">
+                                <p>Celana Panjang</p>
+                                <div class="img">
+                                    <img src="../assets/celana.jpg" width="140">
+                                </div>
+                                <div class="btn">
+                                    <button><a style="color:#1b1c21;" href="transaksi.html">Pesan</a></button>                               
+                                </div>
+                            </div>
+                            <div class="y">
+                            <div class="kain">
+                                <p>Pilih Kain</p>
+                                <div class="imgs">
+                                    <img src="../assets/kain-polos.jpg" width="60">
+                                    <img src="../assets/kain-batik.jpg" width="60">
+                                    <img src="../assets/kain-sasi.jpg" width="60">
+                                    <img src="../assets/kain-denim.jpg" width="60">
+                                    <img src="../assets/kain-drill.jpg" width="60">
+                                    <img src="../assets/kain-katun.jpg" width="60">
+                                    <img src="../assets/kain-linen.jpg" width="60">
+                                    <img src="../assets/kain-rayon.jpg" width="60">
+                                    <img src="../assets/kain-satin.jpg" width="60">
+                                    <img src="../assets/kain-sutra.jpg" width="60">
+                                    <img src="../assets/kain-toyobo.jpg" width="60">
+
+                                </div>
+                            </div>
+                            <div class="warna">
+                                <p>Pilih Warna</p>
+                                <input type="color">
+                            </div>
+                            <div class="ukuran" style="margin-bottom: 20px;">
+                                <p>Pilih Ukuran</p>
+                                <select>
+                                    <option value="XXL">XXL</option>
+                                    <option value="XL">XL</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="S">S</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
+                
+                        <div style="padding: 30px; margin-top: 10px;" class="box2">
+                            <div class="motif">
+                                <p>Celana Pendek</p>
+                                <div class="img">
+                                    <img src="../assets/celana-pendek.jpg" width="140">
+                                </div>
+                                <div class="btn">
+                                    <button><a style="color: #1b1c21;" href="transaksi.html">Pesan</a></button>                               
+                                </div>
+                            </div>
+                            <div class="y">
+                            <div class="kain">
+                                <p>Pilih Kain</p>
+                                <div class="imgs">
+                                    <img src="../assets/kain-polos.jpg" width="60">
+                                    <img src="../assets/kain-batik.jpg" width="60">
+                                    <img src="../assets/kain-sasi.jpg" width="60">
+                                    <img src="../assets/kain-denim.jpg" width="60">
+                                    <img src="../assets/kain-drill.jpg" width="60">
+                                    <img src="../assets/kain-katun.jpg" width="60">
+                                    <img src="../assets/kain-linen.jpg" width="60">
+                                    <img src="../assets/kain-rayon.jpg" width="60">
+                                    <img src="../assets/kain-satin.jpg" width="60">
+                                    <img src="../assets/kain-sutra.jpg" width="60">
+                                    <img src="../assets/kain-toyobo.jpg" width="60">
+
+                                </div>
+                            </div>
+                            <div class="warna">
+                                <p>Pilih Warna</p>
+                                <input type="color">
+                            </div>
+                            <div class="ukuran" style="margin-bottom: 20px;">
+                                <p>Pilih Ukuran</p>
+                                <select>
+                                    <option value="XXL">XXL</option>
+                                    <option value="XL">XL</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="S">S</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
+                            </section>
+<section>
+</section>
+<footer>
+    <h4>@copyright al-faruk</h4>
+</footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get all the images inside the div with class "img"
+        var images = document.querySelectorAll(".imgs img");
+
+        // Add a click event listener to each image
+        images.forEach(function (image) {
+            image.addEventListener("click", function () {
+                // Deselect all images
+                images.forEach(function (img) {
+                    img.classList.remove("selected");
+                });
+
+                // Select the clicked image
+                this.classList.add("selected");
+            });
+        });
+    });
+</script>
+</body>
+</html>
+</body>
+</html>
